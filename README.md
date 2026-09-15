@@ -53,23 +53,4 @@ https://habr.com/ru/articles/ — авторизация не требуется
 - `.gitignore` — исключения для Git.
 - `README.md` — инструкция.
 
-## Загрузка на GitHub
 
-Распакуйте проект и загрузите его файлы в репозиторий.
-Для нового локального репозитория после создания пустого репозитория на GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Add web scraping homework"
-git branch -M main
-git remote add origin <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-git push -u origin main
-```
-
-Замените `<URL_ВАШЕГО_РЕПОЗИТОРИЯ>` адресом своего репозитория.
-Если репозиторий уже инициализирован и `origin` настроен, достаточно
-`git add .`, `git commit` и `git push`.
-На проверку отправляется ссылка на репозиторий, а не ZIP-архив.
-
-[Условие задания](https://github.com/netology-code/py-homeworks-advanced/tree/master/6.Web-scrapping)
